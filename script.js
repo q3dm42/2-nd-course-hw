@@ -43,3 +43,19 @@ num /= 3;
 num++;
 num--;
 alert(num);
+
+// Задание 8
+let age = prompt("Сколько вам лет?");
+alert("Вам " + age + " лет");
+
+// Задание 9
+let user = {
+    name: "Сергей",
+    age: 34,
+    isAdmin: true
+};
+
+// Задание 10
+
+
+
