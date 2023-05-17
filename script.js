@@ -1,13 +1,15 @@
+/*
 // Задание 1
 let a = 10;
-alert(a + 10);
+a = 20;
+alert(a);
 
 // Задание 2
-let yearOfManufacture = (2007);
+const yearOfManufacture = (2007);
 alert(`Год выпуска первого iPhone: ${yearOfManufacture}`);
 
 // Задание 3
-let jsCreator = "Brendan Eich";
+const jsCreator = "Brendan Eich";
 alert(jsCreator)
 
 // Задание 4
@@ -61,10 +63,10 @@ user.cityOfResidence = "Krefeld";
 // Задание 9.2
 user.age++;
 
-/* 
+
 //Задание 9.3
 delete user.name;
-*/
+
 
 // Задание 9.4
 let info = prompt(`Какую информацию хотите узнать о пользователе?`, `name`);
@@ -73,3 +75,4 @@ alert(user[info]);
 // Задание 10
 let name = prompt('Введите ваше имя:');
 alert(`Привет, ${name}!`);
+/*
