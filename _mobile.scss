@@ -1,0 +1,81 @@
+@media (max-width: 768px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        background-image: url(img/Rectangle\ 1\ mob.jpg);
+        background-position: top;
+        background-size: auto;
+        padding-top: 239px;
+        padding-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__content_title {
+            text-align: center;
+            font-size: 32px;
+            line-height: 39px;
+        }
+
+        &__content_slogan {
+            width: 343px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 22px;
+            padding-bottom: 32px;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
+        &__content_button {
+            margin-left: 70px;
+            margin-right: 70px;
+            margin-bottom: 238px;
+        }
+
+
+    }
+
+    .seasons__box {
+        flex-direction: column;
+        padding-top: 128px;
+        text-align: center;
+        gap: 64px;
+    }
+
+    .seasons {
+
+        align-items: center;
+        width: 359px;
+        background-image: url(img/Rectangle\ 66.png);
+    
+    
+        &__title {
+            font-size: 32px;
+            line-height: 39px;
+        }
+    
+        &__description {
+            width: 343px;
+            font-size: 14px;
+            line-height: 22px;
+
+        }
+    
+    }
+
+    .seasons__item {
+        width: 344px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(img/undraw_video_game_night_8h8m\ 1\ mob.png);
+    }
+
+
+
+
+    
+}
