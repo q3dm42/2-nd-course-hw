@@ -9,7 +9,7 @@ if (enterPassword === password) {
 }
 
 // Задание 2
-let c = prompt ('Введите число');
+let c = prompt('Введите число');
 
 if (c > 0 && c < 10) {
     console.log('Верно');
@@ -33,7 +33,7 @@ let b = '3';
 
 let num1 = parseInt(a);
 let num2 = parseInt(b);
-alert (num1 + num2);
+alert(num1 + num2);
 
 // Задание 5
 let monthNumber = prompt('Введите номер месяца, сезон которого хотите узнать');
@@ -84,15 +84,13 @@ switch (monthNumber) {
         break;
 
     case '10':
-    case '10':
         console.log('Окнтябрь - второй месяц осени');
         break;
-    case '11':
+
     case '11':
         console.log('Ноябрь - третий месяц осени');
         break;
 
-    case '12':
     case '12':
         console.log('Декабрь - первый месяц зимы');
         break;
@@ -110,18 +108,18 @@ switch (monthNumber) {
 let number = prompt('Пожалуйста, введите любое число');
 
 if (isNaN(number)) {
-  alert('Вы ввели некорректное число');
+    alert('Вы ввели некорректное число');
 
 } else {
-  if (number % 2 === 0) {
-    alert("Число четное");
-  } else {
-    alert("Число нечетное");
-  }
+    if (number % 2 === 0) {
+        alert("Число четное");
+    } else {
+        alert("Число нечетное");
+    }
 }
 
 // Задание 8
-let clientOS = confirm ('Вы используете iOS?')
+let clientOS = confirm('Вы используете iOS?')
 
 if (clientOS === true) {
     console.log('«Установите версию приложения для iOS по ссылке»');
