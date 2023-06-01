@@ -18,12 +18,11 @@ body {
 }
 
 .top {
-  height: 1024px;
   background-image: url(img/Rectangle\ 1.jpg);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   padding-top: 217px;
+  padding-bottom: 493px;
 }
 .top__content_title {
   font-style: normal;
@@ -33,6 +32,7 @@ body {
   color: #FFFFFF;
 }
 .top__content_slogan {
+  width: 481px;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -67,6 +67,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
+  padding-top: 128px;
+  padding-bottom: 128px;
 }
 .games__title {
   padding-left: 32px;
@@ -97,4 +99,125 @@ body {
 }
 .games__item_3 {
   background-image: url(img/Rectangle\ 8.png);
+}
+
+.seasons__box {
+  display: flex;
+  padding-top: 282px;
+  justify-content: space-between;
+}
+
+.seasons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 32px;
+  width: 584px;
+  background-image: url(img/Rectangle\ 66.png);
+}
+.seasons__title {
+  color: #FFFFFF;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+}
+.seasons__description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.seasons__button {
+  width: 234px;
+  height: 48px;
+  left: 0px;
+  top: 187px;
+  background: #9C0332;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+.seasons__button__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.seasons__item {
+  width: 485px;
+  height: 333px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(img/undraw_video_game_night_8h8m\ 1.png);
+}
+
+@media (max-width: 768px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    background-image: url(img/Rectangle\ 1\ mob.jpg);
+    background-position: top;
+    background-size: auto;
+    padding-top: 239px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top__content_title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .top__content_slogan {
+    width: 343px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top__content_button {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 238px;
+  }
+  .seasons__box {
+    flex-direction: column;
+    padding-top: 128px;
+    text-align: center;
+    gap: 64px;
+  }
+  .seasons {
+    align-items: center;
+    width: 359px;
+    background-image: url(img/Rectangle\ 66.png);
+  }
+  .seasons__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .seasons__description {
+    width: 343px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .seasons__item {
+    width: 344px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(img/undraw_video_game_night_8h8m\ 1\ mob.png);
+  }
 }/*# sourceMappingURL=style.css.map */

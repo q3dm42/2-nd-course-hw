@@ -1,4 +1,4 @@
-/*
+
 // Задание 1
 let a = 10;
 a = 20;
@@ -64,8 +64,8 @@ user.cityOfResidence = "Krefeld";
 user.age++;
 
 
-//Задание 9.3
-delete user.name;
+// //Задание 9.3
+// delete user.name;
 
 
 // Задание 9.4
@@ -75,4 +75,4 @@ alert(user[info]);
 // Задание 10
 let name = prompt('Введите ваше имя:');
 alert(`Привет, ${name}!`);
-/*
+
