@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <!-- <script src="script_hw-3.js"></script> -->
+
 </head>
 
 <body>
@@ -25,7 +25,7 @@
                 Если готов нажимай <b>поехали</b> и
                 <b>приступай</b>
             </p>
-            <button class="top__content_button">
+            <button id="start" class="top__content_button">
                 <p class="top__content_button_text">Поехали!</p>
             </button>
         </div>
@@ -33,8 +33,8 @@
     </section>
 
     <!-- Раздел с играми -->
-    <div class="games__box">
-        <section class="games center">
+    <div class="games__box center">
+        <section class="games">
             <div class="games__item games__item_1">
                 <p class="games__title">Игра 1</p>
             </div>
@@ -61,7 +61,7 @@
                 относится
             </p>
 
-            <button class="seasons__button">
+            <button id="seasons" class="seasons__button">
                 <p class="seasons__button__text">Играть!</p>
             </button>
         </div>
@@ -71,6 +71,31 @@
         </div>
 
     </section>
+
+    <!-- Раздел «Запомни слова» -->
+    <section class="words__box center">
+
+        <div class="words">
+
+            <h1 class="words__title">
+                Запомни слова
+            </h1>
+
+            <p class="words__description">
+                При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.
+            </p>
+
+            <button id="words" class="words__button">
+                <p class="words__button__text">Играть</p>
+            </button>
+        </div>
+
+        <div class="words__item">
+
+        </div>
+    </section>
+
+    <script src="script_hw-5.js"></script>
 </body>
 
 </html>

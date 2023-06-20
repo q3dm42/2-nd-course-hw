@@ -38,44 +38,63 @@
 
 
     }
+    .games {
+        padding-bottom: 0px;
+    }
 
     .seasons__box {
+        flex-direction: column;
+        padding-top: 179px;
+        padding-bottom: 0px;
+        text-align: center;
+        gap: 64px;
+    }
+
+    .words__box {
         flex-direction: column;
         padding-top: 128px;
         text-align: center;
         gap: 64px;
     }
 
-    .seasons {
+    .seasons,
+    .words {
 
         align-items: center;
         width: 359px;
         background-image: url(img/Rectangle\ 66.png);
-    
-    
+
+
         &__title {
             font-size: 32px;
             line-height: 39px;
         }
-    
+
         &__description {
             width: 343px;
             font-size: 14px;
             line-height: 22px;
 
         }
-    
+
     }
 
     .seasons__item {
         width: 344px;
         background-repeat: no-repeat;
         background-position: center;
-        background-image: url(img/undraw_video_game_night_8h8m\ 1\ mob.png);
+        background-image: url(img/undraw_video_game_night_8h8m_1_mob.png);
+    }
+
+    .words__item {
+        width: 344px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(img/undraw_gaming_re_cma2_mob.png);
     }
 
 
 
 
-    
+
 }

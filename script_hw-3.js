@@ -112,18 +112,18 @@ if (isNaN(number)) {
 
 } else {
     if (number % 2 === 0) {
-        alert("Число четное");
+        alert ("Число четное");
     } else {
-        alert("Число нечетное");
+        alert ("Число нечетное");
     }
 }
 
 // Задание 8
-let clientOS = confirm('Вы используете iOS?')
+let clientOS = confirm ('Вы используете iOS?')
 
 if (clientOS === true) {
-    console.log('«Установите версию приложения для iOS по ссылке»');
+    console.log ('«Установите версию приложения для iOS по ссылке»');
 } else {
-    console.log('«Установите версию приложения для Android по ссылке»');
+    console.log ('«Установите версию приложения для Android по ссылке»');
 
 }

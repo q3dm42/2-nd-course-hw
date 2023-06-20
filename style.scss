@@ -71,6 +71,7 @@ body {
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 32px;
     padding-top: 128px;
     padding-bottom: 128px;
@@ -115,11 +116,20 @@ body {
 .seasons__box {
     display: flex;
     padding-top: 282px;
+    padding-bottom: 290px;
     justify-content: space-between;
-
 }
 
-.seasons {
+.words__box {
+    display: flex;
+    padding-top: 282px;
+    padding-bottom: 290px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.seasons,
+.words {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -174,7 +184,15 @@ body {
     height: 333px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(img/undraw_video_game_night_8h8m\ 1.png);
+    background-image: url(img/undraw_video_game_night_8h8m\ 1.png)
+}
+
+.words__item {
+    width: 485px;
+    height: 333px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(img/undraw_gaming_re_cma2\ 1.png);
 }
 
 @import 'mobile';
