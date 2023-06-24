@@ -40,10 +40,8 @@ console.log(arr);
 
 //Задание 6
 const arr = [9, 8, 7, 'a', 6, 5];
-arr.sort();
-arr.splice(arr.indexOf('a'), 1);
-const digits = arr.filter(item => typeof item === 'number');
-console.log(digits);
+const result = arr.filter((it) => !isNaN(it));
+console.log(result);
 
 
 //Задание 7
