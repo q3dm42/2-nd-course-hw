@@ -5,6 +5,8 @@
 const arr = [1, 5, 4, 10, 0, 3];
 
 for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+
   if (arr[i] === 10) {
     console.log(`Число 10 найдено в массиве с индексом ${i}`);
     break; 
@@ -28,8 +30,12 @@ console.log(space);
 
 
 //Задание 4
-const demoArray = Array(3).fill(Array(3).fill(1));
-console.log(demoArray);
+const demoArray = [];
+const innerArray = Array(3).fill(1);
+
+for (let i = 0; i < 3; i++) {
+  demoArray.push(innerArray);
+}
 
 
 //Задание 5
@@ -122,3 +128,4 @@ console.log(filterPositive([-1, 0, 5, -10, 56]));
 console.log(filterPositive([-25, 25, 0, -1000, -2]));
 
 
+ 
