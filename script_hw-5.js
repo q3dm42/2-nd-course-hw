@@ -7,7 +7,7 @@ function smallerThan(a, b) {
 console.log (smallerThan(4, 8));
 
 
-//Задание 
+//Задание 2
 function checkNumber() {
     while (true) {
       const askUser = prompt('Введите число:');
@@ -117,45 +117,6 @@ console.log("Площадь circle2:", circle2.getArea());
 console.log("Периметр circle2:", circle2.getPerimeter());
 */
 
-
-
-
-// function seasonButton() {
-//     const monthNumber = prompt("Введите номер месяца (от 1 до 12):");
-//     const season = getSeason(parseInt(monthNumber));
-
-//     alert (season);
-// }
-
-// const button = document.getElementById("seasons");
-// button.addEventListener("click", seasonButton);
-
-// function getSeason(monthNumber) {
-//     if (monthNumber >= 1 && monthNumber <= 12) {
-//       switch (monthNumber) {
-//         case 12:
-//         case 1:
-//         case 2:
-//           return "Зима";
-//         case 3:
-//         case 4:
-//         case 5:
-//           return "Весна";
-//         case 6:
-//         case 7:
-//         case 8:
-//           return "Лето";
-//         case 9:
-//         case 10:
-//         case 11:
-//           return "Осень";
-//       }
-//     }
-    
-//     return "Неправильный номер месяца";
-//   }
-
-
 const button = document.getElementById("seasons");
 button.addEventListener("click", seasonButton);
 
@@ -163,29 +124,29 @@ function seasonButton() {
     const monthNumber = prompt("Введите номер месяца (от 1 до 12):");
     const season = getSeason(parseInt(monthNumber));
 
-    alert (season);
+    alert(season);
 }
 
 function getSeason(monthNumber) {
     if (monthNumber >= 1 && monthNumber <= 12) {
-      switch (monthNumber) {
-        case 12:
-        case 1:
-        case 2:
-          return "Зима";
-        case 3:
-        case 4:
-        case 5:
-          return "Весна";
-        case 6:
-        case 7:
-        case 8:
-          return "Лето";
-        case 9:
-        case 10:
-        case 11:
-          return "Осень";
-      }
+        switch (monthNumber) {
+            case 12:
+            case 1:
+            case 2:
+                return "Зима";
+            case 3:
+            case 4:
+            case 5:
+                return "Весна";
+            case 6:
+            case 7:
+            case 8:
+                return "Лето";
+            case 9:
+            case 10:
+            case 11:
+                return "Осень";
+        }
     }
     return "Такого месяца не существует";
-  }
+}
