@@ -92,6 +92,12 @@ body {
   flex-direction: column-reverse;
   border-radius: 18px;
 }
+.games__item:hover {
+  cursor: pointer;
+  border: 3px solid #44D2FF;
+  border-radius: 18px;
+  box-sizing: border-box;
+}
 .games__item_1 {
   background-image: url(img/Rectangle\ 6.png);
 }
@@ -172,6 +178,7 @@ body {
   height: 333px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   background-image: url(img/undraw_video_game_night_8h8m\ 1.png);
 }
 
@@ -180,6 +187,7 @@ body {
   height: 333px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   background-image: url(img/undraw_gaming_re_cma2\ 1.png);
 }
 
@@ -221,6 +229,7 @@ body {
     padding-bottom: 0px;
   }
   .seasons__box {
+    align-items: center;
     flex-direction: column;
     padding-top: 179px;
     padding-bottom: 0px;
@@ -228,6 +237,7 @@ body {
     gap: 64px;
   }
   .words__box {
+    align-items: center;
     flex-direction: column;
     padding-top: 128px;
     text-align: center;

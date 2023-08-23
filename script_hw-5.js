@@ -150,3 +150,24 @@ function getSeason(monthNumber) {
     }
     return "Такого месяца не существует";
 }
+
+let words = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+
+const wordsButton = document.getElementById("words");
+wordsButton.addEventListener("click", wordsGame);
+
+function wordsGame() {
+    words = words.sort(() => Math.random() - 0.5);
+    alert('Перед вами перемешанный массив слов:\n' + words.join(', '));
+
+    const firstWord = prompt('Чему равнялся первый элемент массива?').toLowerCase();
+    const lastWord = prompt('Чему равнялся последний элемент массива?').toLowerCase();
+
+    if (firstWord === words[0].toLowerCase() && lastWord === words[words.length - 1].toLowerCase()) {
+        alert('Поздравляем! Вы угадали оба элемента.');
+    } else if (firstWord === words[0].toLowerCase() || lastWord === words[words.length - 1].toLowerCase()) {
+        alert('Вы были близки к победе!');
+    } else {
+        alert('Вы ответили неверно.');
+    }
+}
