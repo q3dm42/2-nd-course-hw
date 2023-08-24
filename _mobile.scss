@@ -38,11 +38,13 @@
 
 
     }
+
     .games {
         padding-bottom: 0px;
     }
 
     .seasons__box {
+        align-items: center;
         flex-direction: column;
         padding-top: 179px;
         padding-bottom: 0px;
@@ -51,6 +53,7 @@
     }
 
     .words__box {
+        align-items: center;
         flex-direction: column;
         padding-top: 128px;
         text-align: center;
