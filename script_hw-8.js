@@ -15,7 +15,6 @@ people.sort(sortByAge);
 console.log(people);
 
 
-
 //Задание 2
 function isPositive(num) {
     return num > 0;
@@ -77,23 +76,19 @@ delayForSecond(function () {
 });
 
 //Задание 5
-
 function delayForSecond(cb) {
     setTimeout(() => {
         console.log('Прошла одна секунда');
         if (cb) {
             cb();
         }
-    }, 1000)
+    }, 1000);
 }
 
 function sayHi(name) {
-    return function () {
-        console.log(`Привет, ${name}!`);
-    };
+    console.log(`Привет, ${name}!`);
 }
 
-delayForSecond(sayHi('Глеб'));
-
-
-
+delayForSecond(() => {
+    sayHi('Глеб');
+});
